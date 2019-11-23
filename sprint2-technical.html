@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Zilla+Slab&display=swap" rel="stylesheet">
+    <title>My Blog</title>
+</head>
+
+<body>
+    <header> 
+        <div id="topbar">
+             <div class="logo">SCOTT THOMSON</div>
+            <nav>
+                <ul>
+                   <a href="index.html"><li>Home</li></a>
+                   <a href="aboutme-page.html"><li>About</li></a>
+                   <a href="index.html"><li>Blog</li></a>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="blog-post">
+        <h1>The Box Model</h1>
+        <h2>In this post I want to explain the Box Model as it refers to Web Design and the difference between Padding, Borders and Margin.</h2>
+        <h4>24 November 2019</h4>
+        <img src="images/sprint2-technical2.jpg" style="height:auto;width: 100%;" alt="Blog Image" class="center">
+        
+    <p style="font-size: 20px">In HTML we can view elements as boxes. The way we apply style to those elements is through CSS and what is known as ‘The Box Model’. We can think of the Box Model as a box that wraps around every HTML element.</p>
+        
+    <p style="font-size: 20px"> This box contains four different parts; Content, Padding, Borders and Margins. (See image below)
+    </p>
+
+    <img src="images/boxmodel.jpg" style="height:auto;width: 100%;" alt="Blog Image" class="center">
+    <p style="font-size: 20px">
+        <ul style="font-size: 20px">
+        <li> Content - The content is the centre of the box, this is where all of our text and images are stored.</li>
+        <li><b>Padding</b> - This is the area around the content, this clears the area away from the content.</li> 
+        <li><b>Border</b> - Creates a border around the padding and the content</li>
+        <li><b>Margin</b> - Clears the area around the border. It is the ‘space between boxes’</li>
+        </ul>   
+    </p>
+    <p style="font-size: 20px">A good analogy is to think of the element in terms of a shoebox. Imagine you are looking down onto an open shoebox, the shoes would be the content, the wrapping paper inside the box would be the padding and the edge of the box would be the border. Now imagine you place another shoe box next to this one. The space between the two boxes would be margin. 
+    </p>
+    <img src="images/shoeboxes.jpg" style="height:auto;width: 100%;" alt="Blog Image" class="center">
+
+    <p style="font-size: 20px"> <strong>One important point to remember when designing websites is that when you set the height and width values of an element this only relates to the content area. In order to calculate the full size of the element you must also include any padding, borders and the margins.</strong> </p>
+</div> 
+
+<div class="footer"></div>
+</body>
+</html>
